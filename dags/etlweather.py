@@ -6,7 +6,7 @@ from airflow.utils.dates import days_ago
 import requests
 import json
 
-# Latitude and longitude for the desired location (London in this case)
+# Latitude and longitude for the desired location (Case of study: Douala)
 LATITUDE = '4.061536'
 LONGITUDE = '9.786072'
 POSTGRES_CONN_ID = 'postgres_default'
