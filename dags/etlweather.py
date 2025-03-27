@@ -20,7 +20,7 @@ default_args = {
 ## DAG
 with DAG(dag_id='weather_etl_pipeline',
          default_args=default_args,
-         schedule_interval='@daily',
+         schedule_interval='0 */3 * * *',
          catchup=False) as dags:
     @task()
     def extract_weather_data():
