@@ -42,7 +42,7 @@ Example Output (Sample Data)
 
 Use cases
 =================================
-- The database can be used in a research project in Geopraphy field or any other field. Example: With specific research criteria, I can use this input and add extra weather conditions like humidity and rainfall as an indicator to use on the correlation of the weather condition of a given area to a natural or human hazard happening there. (erosion, landslide, water distribution, pollution, desertification, etc.) 
+- The database can be used in a research project in Geopraphy field or any other field. Example: With specific research criteria, I can use this input and add extra weather conditions like humidity and rainfall as an indicator to use to verify the correlation of the weather condition of a given area to a natural or human hazard happening there. (erosion, landslide, water distribution, pollution, desertification, etc.) 
 - It can also be used in a supply chain project whereby some goods needs to be conserved and transported under certain conditions. This may help in analyzing and predicting under which period a given good can deteriorate, hence avoiding such impacts.
 - Can also be used to predict weather condition. 
 
