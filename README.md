@@ -35,8 +35,9 @@ Technologies Used
 
 Example Output (Sample Data)
 =================================
+| timestamp              | temperature(°C) | wind_speed (m/s) | wind_direction (°)     |
+|------------------------|-----------------|------------------|------------------------|
+| 2025-05-09 14:00:00    | 30.1	           | 3.4              |       190              |
 
-timestamp	                  temperature(°C)	       wind_speed (m/s)	               wind_direction (°)
-2025-05-09 14:00:00	               30.1	                    3.4	                            190
 
 
