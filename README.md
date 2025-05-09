@@ -1,7 +1,7 @@
 Overview
 ========
 DoualaWeather_Pipeline is a data pipeline project designed to extract weather data for Douala, Cameroon from a public weather API. The pipeline performs lightweight transformations on the data and loads it into a PostgreSQL database. This ETL process is automated and orchestrated using Apache Airflow, deployed and scheduled via Astronomer.
-It is scheduled to capture the weather conditions in Douala, Cameroon, every 3 hours. Using Apache Airflow via astronomer, this system automates the collection and storage of weather data, enabling the continuous monitoring of weather patterns in the region.
+It is scheduled to capture the weather conditions every 3 hours. Using Apache Airflow, this system automates the collection and storage of weather data, enabling the continuous monitoring of weather patterns in the region.
 
 The collected weather data includes key metrics like temperature, wind direction, wind speed, and weather code, which are fetched from an external weather API. The data is processed and stored in a Postgres database for further analysis and reporting.
 
@@ -42,7 +42,7 @@ Example Output (Sample Data)
 
 Use cases
 =================================
-- The database can be used in a research project in Geopraphy field or any other fields. Example: With specific research criterias i can use this input and add extra weather conditions like humidity and rainfall as an indicator to use on the correlation of the weather condition of a given area to a natural or human hazard happening there. ( Erosion, landslide, Water distribution, pollution, desertification etc)
+- The database can be used in a research project in Geopraphy field or any other field. Example: With specific research criteria, I can use this input and add extra weather conditions like humidity and rainfall as an indicator to use on the correlation of the weather condition of a given area to a natural or human hazard happening there. (erosion, landslide, water distribution, pollution, desertification, etc.) 
 - It can also be used in a supply chain project whereby some goods needs to be conserved and transported under certain conditions. This may help in analyzing and predicting under which period a given good can deteriorate, hence avoiding such impacts.
 - Can also be used to predict weather condition. 
 
